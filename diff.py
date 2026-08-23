@@ -1,0 +1,1 @@
+def diff(a, b): return [f'+ {x}' for x in b if x not in a]
